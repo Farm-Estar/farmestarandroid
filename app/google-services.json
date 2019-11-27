@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "980885994768",
+    "firebase_url": "https://farm-estar.firebaseio.com",
+    "project_id": "farm-estar",
+    "storage_bucket": "farm-estar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980885994768:android:b5269411c5e8b0e7b9f995",
+        "android_client_info": {
+          "package_name": "com.farm.farmestar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980885994768-sfaip8c49itdskqa7osc0k7lp0ptk12k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeQZS7o93CX8YFNz4VE-AOio7C0hahIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980885994768-sfaip8c49itdskqa7osc0k7lp0ptk12k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "980885994768-gkn78u6v1s0ec9aheaq32en52tq85q9v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.Farm-Estar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
