@@ -28,10 +28,10 @@ class MainActivity : AppCompatActivity() {
 
 
         //TODO: url is set to staging, before production this needs to be pushed to prod env
-        var farmestarURL = "https://farmestar.herokuapp.com/"
-//        var farmestarURL = "https//farmestar-prod.herokuapp.com"
+//        var farmestarURL = "https://farmestar.herokuapp.com/"
+        var farmestarURL = "https//farmestar-prod.herokuapp.com"
 
-        //Setup WebView for Igedla
+        //Setup WebView for FarmEstar
         val farmestarWebView = WebView(this)
         farmestarWebView.loadUrl(farmestarURL)
 
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         farmestarWebView.settings.javaScriptCanOpenWindowsAutomatically = true
 
         //Make Call to Check version
-        run("https://farmestar.herokuapp.com/api/app/version", farmestarWebView)
+        run("https//farmestar-prod.herokuapp.com/api/app/version", farmestarWebView)
 
 
         // OneSignal Implementation
