@@ -1,4 +1,4 @@
-package com.farm.farmestar
+package com.app.farmestar
 
 import android.os.Bundle
 import android.webkit.WebChromeClient
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         //TODO: url is set to staging, before production this needs to be pushed to prod env
 //        var farmestarURL = "https://farmestar.herokuapp.com/"
-        var farmestarURL = "https//farmestar-prod.herokuapp.com"
+        var farmestarURL = "https://farmestar-prod.herokuapp.com/"
 
         //Setup WebView for FarmEstar
         val farmestarWebView = WebView(this)
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         farmestarWebView.settings.javaScriptCanOpenWindowsAutomatically = true
 
         //Make Call to Check version
-        run("https//farmestar-prod.herokuapp.com/api/app/version", farmestarWebView)
+        run(farmestarURL + "api/app/version", farmestarWebView)
 
 
         // OneSignal Implementation

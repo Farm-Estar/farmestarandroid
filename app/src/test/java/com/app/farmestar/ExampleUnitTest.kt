@@ -1,4 +1,4 @@
-package com.farm.farmestar
+package com.app.farmestar
 
 import org.junit.Test
 

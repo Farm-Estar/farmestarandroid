@@ -1,10 +1,10 @@
-package com.farm.farmestar
+package com.app.farmestar
 
 import android.content.Context
 import android.content.SharedPreferences
 
 class Prefs (context: Context) {
-    val PREFS_FILENAME = "com.farm.farmestar"
+    val PREFS_FILENAME = "com.app.farmestar"
     val APP_VERSION = "app_version"
     val prefs: SharedPreferences = context.getSharedPreferences(PREFS_FILENAME, 0)
 
